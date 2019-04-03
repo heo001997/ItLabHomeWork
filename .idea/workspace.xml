@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="115d5324-f625-4a44-a319-fc2aabb28909" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/FileLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/HighTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/INPUT/access.log.10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/INPUT/access.log.11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/access.log.10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/access.log.11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/full.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ItLabHomeWork.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="115d5324-f625-4a44-a319-fc2aabb28909" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +34,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="51">
               <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
             </state>
           </provider>
@@ -81,7 +68,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -151,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554311327931" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554316675233" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554309176282</updated>
       <workItem from="1554309177723" duration="65000" />
-      <workItem from="1554310757082" duration="568000" />
+      <workItem from="1554310757082" duration="1493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="633000" />
+    <option name="totallyTimeSpent" value="1558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -272,7 +259,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="51">
           <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
         </state>
       </provider>
