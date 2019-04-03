@@ -5,8 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.topica.vn</groupId>
-    <artifactId>BTVN</artifactId>
+    <artifactId>ItLabHomeWork</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>BTVN_Bai12_TuNT7</module>
+    </modules>
 
 
 </project>
