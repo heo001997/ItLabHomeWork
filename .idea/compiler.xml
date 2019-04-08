@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="BTVN1_Thay_TuanLQ" />
         <module name="BTVN_Bai12_TuNT7" />
         <module name="BTVN_Bai13_TuNT7" />
       </profile>
