@@ -2,31 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115d5324-f625-4a44-a319-fc2aabb28909" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/RunnableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/ThreadingMatters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CrunchifyGetIPHostname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/FileLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/HighTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/INPUT/access.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/INPUT/access.log.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/access.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/access.log.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/full.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/FileLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/HighTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/INPUT/access.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/INPUT/access.log.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/access.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/access.log.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/full.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/" />
+    <ignored path="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,38 +27,120 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/RunnableModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/pom.xml">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/ThreadingMatters.java">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServerThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CrunchifyGetIPHostname.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/RunnableModel.java">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClientThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,6 +151,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/resources/result.txt" />
         <option value="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServer.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServerThread.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClientThread.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClient.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/server.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/client.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CrunchifyGetIpHostname.java" />
       </list>
     </option>
   </component>
@@ -98,6 +180,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,25 +191,25 @@
             <path>
               <item name="ItLabHomeWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItLabHomeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_Bai12_TuNT7" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_Bai13_TuNT7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ItLabHomeWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItLabHomeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_Bai12_TuNT7" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_Bai13_TuNT7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ItLabHomeWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItLabHomeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_Bai12_TuNT7" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_Bai13_TuNT7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ItLabHomeWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItLabHomeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_Bai12_TuNT7" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_Bai13_TuNT7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -135,16 +218,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554641212570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554685560897" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -164,25 +251,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadingMatters">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="BTVN_Bai12_TuNT7" />
+  <component name="RunManager" selected="Application.client">
+    <configuration name="ChatClient" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatClient" />
+      <module name="BTVN_Bai13_TuNT7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadingMatters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadingMatters" />
-      <module name="BTVN_Bai12_TuNT7" />
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatClient" />
+      <module name="BTVN_Bai13_TuNT7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrunchifyGetIPHostname" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrunchifyGetIPHostname" />
+      <module name="BTVN_Bai13_TuNT7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client" />
+      <module name="BTVN_Bai13_TuNT7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server" />
+      <module name="BTVN_Bai13_TuNT7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadingMatters" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.client" />
+        <item itemvalue="Application.server" />
+        <item itemvalue="Application.CrunchifyGetIPHostname" />
+        <item itemvalue="Applet.ChatClient" />
+        <item itemvalue="Application.ChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -199,18 +310,21 @@
       <workItem from="1554309177723" duration="65000" />
       <workItem from="1554310757082" duration="1529000" />
       <workItem from="1554367220923" duration="237000" />
-      <workItem from="1554641159122" duration="54000" />
+      <workItem from="1554641159122" duration="1258000" />
+      <workItem from="1554683425679" duration="2137000" />
+      <workItem from="1554693437104" duration="53000" />
+      <workItem from="1554693578641" duration="679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1885000" />
+    <option name="totallyTimeSpent" value="5958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12708019" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -219,8 +333,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -229,7 +343,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,16 +384,167 @@
     <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/RunnableModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CrunchifyGetIPHostname.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BTVN_Bai13_TuNT7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
