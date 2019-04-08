@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115d5324-f625-4a44-a319-fc2aabb28909" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CrunchifyGetIPHostname.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_Thay_TuanLQ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/" />
     <ignored path="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/" />
+    <ignored path="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/RunnableModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -100,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -110,6 +96,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BTVN1_Thay_TuanLQ/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -174,6 +165,7 @@
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -187,6 +179,11 @@
             <path>
               <item name="ItLabHomeWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="ItLabHomeWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ItLabHomeWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ItLabHomeWork" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN1_Thay_TuanLQ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ItLabHomeWork" type="b2602c69:ProjectViewProjectNode" />
@@ -223,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554685560897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554700932892" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -314,17 +311,17 @@
       <workItem from="1554683425679" duration="2137000" />
       <workItem from="1554693437104" duration="53000" />
       <workItem from="1554693578641" duration="679000" />
+      <workItem from="1554700786820" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5958000" />
+    <option name="totallyTimeSpent" value="6103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,6 +464,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN1_Thay_TuanLQ/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
