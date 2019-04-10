@@ -7,9 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BTVN1_Thay_TuanLQ" />
-        <module name="BTVN_Bai12_TuNT7" />
-        <module name="BTVN_Bai13_TuNT7" />
+        <module name="BTVN_Thay_Huy" />
+        <module name="BTVN_Thay_Trung" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BTVN_Bai12_TuNT7" target="8" />
+      <module name="BTVN_Bai13_TuNT7" target="1.5" />
+      <module name="BTVN_Bai13b_TuNT7" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
