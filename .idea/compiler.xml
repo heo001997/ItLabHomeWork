@@ -11,10 +11,5 @@
         <module name="BTVN_Thay_Tuan" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="BTVN_Bai12_TuNT7" target="8" />
-      <module name="BTVN_Bai13_TuNT7" target="1.5" />
-      <module name="BTVN_Bai13b_TuNT7" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
