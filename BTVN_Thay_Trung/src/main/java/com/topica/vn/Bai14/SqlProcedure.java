@@ -1,51 +1,48 @@
 package com.topica.vn.Bai14;
 
+import java.io.IOException;
 import java.sql.*;
 
 public class SqlProcedure {
 
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        Class.forName("com.mysql.jdbc.Driver");
-        Connection connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/companydb","root","Dunghoi123!@#");
+    public static String driver = "";
+    public static String url = "";
+    public static String database = "";
+    public static String user = "";
+    public static String password = "";
 
-        CallableStatement cSm = connection.prepareCall("{call getID(?, ?)}");
-        cSm.setString(1, "Computers");
-        cSm.registerOutParameter(2, Types.INTEGER);
-        cSm.registerOutParameter("total", Types.INTEGER);
+    public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
+        ReadProperties readProperties = new ReadProperties();
+        readProperties.getPropertiesValue();
 
-        boolean hadResult = cSm.execute();
+        Class.forName(driver);
+        Connection connection= DriverManager.getConnection(url + "/" + database,user,password);
+
+        CallableStatement cS = connection.prepareCall("{call getIdByEname(?, ?)}"); // (IN TEMPNAME, OUT EID)
+
+        String Ename = "Nguyen Van A";
+        cS.setString(1, Ename);
+
+        cS.registerOutParameter(2, Types.INTEGER);
+        cS.registerOutParameter("EID", Types.INTEGER);
+
+        boolean hadResult = cS.execute();
 
         while (hadResult){
-            ResultSet rs = cSm.getResultSet();
-            ResultSetMetaData rsmd = rs.getMetaData();
-            int colNumber = rsmd.getColumnCount();
+            ResultSet rS = cS.getResultSet();
+            ResultSetMetaData rSMD = rS.getMetaData();
+            int colNumber = rSMD.getColumnCount();
 
-            while (rs.next()){
-                for (int i=1; i<=colNumber; i++){
+            while (rS.next()){
+                for (int i=1; i<=colNumber; i++){                       // SQL ResultSet start from 1
                     if (i > 1) System.out.println(", ");
-                    int colValue = rs.getInt(i);
-                    System.out.println(rsmd.getColumnName(i) + " : " + colValue);
+                    int colValue = rS.getInt(i);
+                    System.out.println(rSMD.getColumnName(i) + " : " + colValue);
                 }
-                System.out.println("");
+                System.out.println();
             }
 
-            hadResult = cSm.getMoreResults();
+            hadResult = cS.getMoreResults();
         }
-//        int total;
-//        CallableStatement stm = connection.prepareCall("{ call getID('History', @total) }");
-//        stm.registerOutParameter(1, Types.INTEGER);
-//        stm.execute();
-//        total = stm.getInt(1);
-//        String m_count = stm.getString(1);
-//        stm.close();
     }
-//here sonoo is database name, root is username and password
-
-//
-//
-//    CallableStatement stm = connection.prepareCall("{ call CountMembers(?) }");
-//    stm.registerOutParameter(1, Types.VARCHAR);
-//    stm.execute();
-//    String m_count = stm.getString(1);
-//    stm.close();
 }
