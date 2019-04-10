@@ -2,35 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115d5324-f625-4a44-a319-fc2aabb28909" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Huy/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/CreateStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/ReadThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/WriteThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/Dining philosophers.docx" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai12/Dining philosophers.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Huy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/RunnableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai12/RunnableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/src/main/java/ThreadingMatters.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai12/ThreadingMatters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/RunnableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/classes/ThreadingMatters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/CreateStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ReadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/ReadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/WriteThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/WriteThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/classes/CreateStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/classes/META-INF/BTVN_Bai13_TuNT7.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/classes/ReadThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/classes/WriteThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/classes/client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Bai13_TuNT7/target/classes/server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/Bai1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/Bai1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Main/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Main/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Main/RedToBlue.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Main/RedToBlue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/buf_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/buf_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/buf_img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/buf_img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/buf_img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/buf_img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/demo 74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/demo 74.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/demo 85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/out/production/Bai1/Resources/demo 85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Main/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Main/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Main/RedToBlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Main/RedToBlue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/buf_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/buf_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/buf_img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/buf_img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/buf_img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/buf_img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/demo 56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/demo 56.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/demo 74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/demo 74.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/demo 85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/Bai2/src/Resources/demo 85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai1+2_TuNT7/bai1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai1+2_TuNT7/bai1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai3_TuNT7/Bai 3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai3_TuNT7/Bai 3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai3_TuNT7/bmp100.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai3_TuNT7/bmp100.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai3_TuNT7/bmp10000 (nen lai vi qua 100mb).rar" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai3_TuNT7/bmp10000 (nen lai vi qua 100mb).rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai3_TuNT7/png100.png" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai3_TuNT7/png100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai3_TuNT7/png10000.png" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai3_TuNT7/png10000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/Bai4KieuSida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/Bai4KieuSida.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/SeparatorCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/SeparatorCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/TextFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/TextFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Code/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/META-INF/Bai4KieuSida.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/META-INF/Bai4KieuSida.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_raw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_raw.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawError.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawError.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawgoc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawgoc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawoutSpecialChar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/out/production/Bai4KieuSida/Resources/b4_rawoutSpecialChar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Code/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Code/SeparatorCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Code/SeparatorCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Code/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Code/TextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Code/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Code/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Resources/b4_raw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Resources/b4_raw.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Resources/b4_rawError.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Resources/b4_rawError.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Resources/b4_rawgoc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Resources/b4_rawgoc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Resources/b4_rawout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Resources/b4_rawout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai4_TuNT7/src/Resources/b4_rawoutSpecialChar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai4_TuNT7/src/Resources/b4_rawoutSpecialChar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai5_TuNT7/Exception !=.docx" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai5_TuNT7/Exception !=.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai6a_TuNT7/6 When do Static initilize.docx" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai6a_TuNT7/6 When do Static initilize.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bai6b_TuNT7/Bai 6b Color Palette &amp; Detail.docx" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bai6b_TuNT7/Bai 6b Color Palette &amp; Detail.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bài 8_LongNT8_TuNT7_HoangNV2_AnhQHT_HoangNH11/Design pattern abstract factory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bài 8_LongNT8_TuNT7_HoangNV2_AnhQHT_HoangNH11/Design pattern abstract factory.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bài 8_LongNT8_TuNT7_HoangNV2_AnhQHT_HoangNH11/Design pattern abstract factory.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bài 8_LongNT8_TuNT7_HoangNV2_AnhQHT_HoangNH11/Design pattern abstract factory.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/BTVN_Bài 8_LongNT8_TuNT7_HoangNV2_AnhQHT_HoangNH11/code.rar" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/BTVN_Bài 8_LongNT8_TuNT7_HoangNV2_AnhQHT_HoangNH11/code.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN1_Thay_TuanLQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Tuan/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/" />
@@ -175,7 +215,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="738" />
@@ -204,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554857847819" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554858039790" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -315,12 +355,12 @@
       <workItem from="1554736217026" duration="10112000" />
       <workItem from="1554776323747" duration="5108000" />
       <workItem from="1554798920775" duration="2525000" />
-      <workItem from="1554856838394" duration="1009000" />
+      <workItem from="1554856838394" duration="1201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32654000" />
+    <option name="totallyTimeSpent" value="32846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -407,7 +447,7 @@
     <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServer.java" />
     <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ChatServerThread.java" />
     <entry file="file://$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CrunchifyGetIPHostname.java" />
-    <entry file="file://$PROJECT_DIR$/BTVN1_Thay_TuanLQ/pom.xml">
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Tuan/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
