@@ -18,24 +18,32 @@ public class SqlConnectionPoolReplica {
         ResultSet resultSet = null;
         PreparedStatement preparedStatement = null;
 
+
         try {
             ReadProperties readProperties = new ReadProperties();
             readProperties.getPropertiesValue();
 
-            int maxActive = 5;
+            int maxActive = 2;
             ConnectionPool connectionPool = new ConnectionPool(maxActive);
-
-            connectionPool.setMaxActive(5);
             connectionPool.showStatus();
 
-            // Connect to DB by Connection pool
-            connection = connectionPool.getConnection();
-            connectionPool.showStatus();
+            // Connect to DB by Connection pool - Will be full and interrupted
+            for (int i=0; i<maxActive+3; i++){
+                Thread t1 = new Thread(new ConnectionThreadModel(connectionPool));
+                t1.start();
+
+                Thread.sleep(3000);
+                connectionPool.showStatus();
+                System.out.println();
+            }
 
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (SQLException e){
-            System.out.println("SQLException in SqlConnectionPoolReplica");
+        } catch (InterruptedException e) {
+            System.out.println("Thread has been Interrupted");
         }
+//        catch (SQLException e){
+//            System.out.println("SQLException in SqlConnectionPoolReplica");
+//        }
     }
 }
