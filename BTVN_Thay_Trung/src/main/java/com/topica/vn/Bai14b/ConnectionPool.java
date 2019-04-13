@@ -14,7 +14,6 @@ import static com.topica.vn.Bai14b.SqlConnectionPoolReplica.*;
 public class ConnectionPool {
     int maxActive;
     int numActive;
-    int numIdle;
     ConnectionModel connectionModel;
     ArrayBlockingQueue<ConnectionModel> connectionQueue;
 
@@ -24,18 +23,17 @@ public class ConnectionPool {
     }
 
     public void showStatus(){
-        System.out.println("Max Connection: " + maxActive + "; Active Connection: " + connectionQueue.size() + "; Idle Connection: " + numIdle);
+        System.out.println("Max Connection: " + maxActive + "; Active Connection: " + connectionQueue.size() + "; Idle Connection: " + (maxActive - connectionQueue.size()));
     }
 
-    public Connection getConnection() throws SQLException {
+    public Connection getConnection() throws SQLException, InterruptedException {
         ConnectionModel connectionModel = new ConnectionModel();
         try {
-            connectionQueue.offer(connectionModel, 5, TimeUnit.SECONDS);
-            System.out.println("Just put in a new ConnectionModel");
+            connectionQueue.add(connectionModel);
+            System.out.println("Just put into ConnectionQueue a new ConnectionModel");
         } catch (IllegalStateException e){
             System.out.println("Queue is already full, please try again later");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+            throw new InterruptedException();
         }
         return connectionModel.getConnection();
     }
@@ -56,11 +54,4 @@ public class ConnectionPool {
         this.numActive = numActive;
     }
 
-    public int getNumIdle() {
-        return numIdle;
-    }
-
-    public void setNumIdle(int numIdle) {
-        this.numIdle = numIdle;
-    }
 }

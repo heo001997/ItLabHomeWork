@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115d5324-f625-4a44-a319-fc2aabb28909" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Huy/src/main/java/LinkedListDeleteDuplicate/DuplicateDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Huy/src/main/java/LinkedListDeleteDuplicate/FileTxt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Huy/src/main/java/LinkedListDeleteDuplicate/LinkedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Huy/src/main/java/LinkedListDeleteDuplicate/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/SqlPrestatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPoolEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ReadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionThreadModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Huy/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/ReadProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/SqlProcedure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/target/classes/com/topica/vn/Bai14b/ConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/target/classes/com/topica/vn/Bai14b/ConnectionPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_Thay_Trung/target/classes/com/topica/vn/Bai14b/SqlConnectionPoolReplica.class" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_Thay_Trung/target/classes/com/topica/vn/Bai14b/SqlConnectionPoolReplica.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/BTVN_Bai12_TuNT7/target/" />
@@ -57,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="170">
+                <caret line="10" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,10 +54,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPoolEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="74" column="13" selection-start-line="72" selection-start-column="12" selection-end-line="74" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4845">
+              <caret line="335" selection-start-line="335" selection-end-line="335" />
+              <folding>
+                <element signature="e#6849#6850#0" expanded="true" />
+                <element signature="e#6907#6908#0" expanded="true" />
+                <element signature="e#15850#15851#0" expanded="true" />
+                <element signature="e#15881#15882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionThreadModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="34" column="84" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19839">
+              <caret line="1220" selection-start-line="1220" selection-end-line="1220" />
+              <folding>
+                <element signature="e#22675#22676#0" expanded="true" />
+                <element signature="e#22703#22704#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15147">
+              <caret line="946" selection-start-line="946" selection-end-line="946" />
+              <folding>
+                <element signature="e#15020#15021#0" expanded="true" />
+                <element signature="e#15084#15085#0" expanded="true" />
+                <element signature="e#36767#36768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,31 +132,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/ReadProperties.java">
+        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/resource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ReadProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1559#1560#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1624#1625#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -110,54 +163,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar!/com/mysql/fabric/jdbc/FabricMySQLDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/user-impl/java/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/user-impl/java/com/mysql/cj/jdbc/NonRegisteringDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/user-impl/java/com/mysql/cj/jdbc/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -195,8 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/CrunchifyGetIpHostname.java" />
-        <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/client.java" />
         <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/server.java" />
         <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/Client1.java" />
         <option value="$PROJECT_DIR$/BTVN_Bai13_TuNT7/src/main/java/ClientListen.java" />
@@ -242,9 +250,11 @@
         <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlPrestatement.java" />
         <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPoolEx.java" />
         <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionModel.java" />
-        <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java" />
         <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/ReadProperties.java" />
+        <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ThreadModel.java" />
         <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionThreadModel.java" />
+        <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java" />
         <option value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/Readme.md" />
       </list>
     </option>
@@ -267,7 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,14 +352,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555120971391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555125780847" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -510,18 +520,19 @@
       <workItem from="1554932914253" duration="3744000" />
       <workItem from="1554949505682" duration="4861000" />
       <workItem from="1555036088825" duration="9292000" />
-      <workItem from="1555108198367" duration="9465000" />
+      <workItem from="1555108198367" duration="14278000" />
+      <workItem from="1555125797370" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76011000" />
+    <option name="totallyTimeSpent" value="81072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,8 +541,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3993559" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42190015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -562,24 +573,20 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="driver" language="JAVA" />
+        <watch expression="maxActive" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>maxActive</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>driver</expression-string>
         <language-id>JAVA</language-id>
@@ -588,67 +595,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/ReadThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13a/WriteThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/Client.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/CreateStream.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/ReadThread.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/Server.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai13b/WriteThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/JdbcDriver/mysql-connector-java-8.0.15/src/test/java/testsuite/x/devapi/CollectionFindTest.java" />
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Tuan/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/user-impl/java/com/mysql/cj/jdbc/CallableStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -767,7 +713,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/BasicConnectionPool.java" />
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPool.java" />
     <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -825,30 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/core-api/java/com/mysql/cj/conf/ConnectionUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/ConnectionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPoolEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#812#839#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,17 +787,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14/ReadProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/core-api/java/com/mysql/cj/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="1365" selection-start-line="1365" selection-end-line="1365" />
+          <folding>
+            <element signature="e#55829#55830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/core-api/java/com/mysql/cj/conf/ConnectionUrlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/mysql-connector-java-8.0.15/src/main/core-api/java/com/mysql/cj/conf/ConnectionUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/resources/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -899,44 +848,139 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.46/mysql-connector-java-5.1.46.jar!/com/mysql/fabric/jdbc/FabricMySQLDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="99">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionModel.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ThreadGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="244">
+          <caret line="907" selection-start-line="907" selection-end-line="907" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="120" column="39" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5134">
+          <caret line="351" selection-start-line="351" selection-end-line="351" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPoolEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="74" column="13" selection-start-line="72" selection-start-column="12" selection-end-line="74" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4845">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+          <folding>
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
+            <element signature="e#15850#15851#0" expanded="true" />
+            <element signature="e#15881#15882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionThreadModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="84" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19839">
+          <caret line="1220" selection-start-line="1220" selection-end-line="1220" />
+          <folding>
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15147">
+          <caret line="946" selection-start-line="946" selection-end-line="946" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="595">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/ConnectionModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/SqlConnectionPoolReplica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -946,8 +990,8 @@
     <entry file="file://$PROJECT_DIR$/BTVN_Thay_Trung/src/main/java/com/topica/vn/Bai14b/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="170">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
