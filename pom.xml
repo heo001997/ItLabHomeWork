@@ -9,10 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>BTVN_Bai12_TuNT7</module>
-        <module>BTVN_Bai13_TuNT7</module>
         <module>BTVN_Thay_Tuan</module>
-        <module>BTVN_Bai13b_TuNT7</module>
         <module>BTVN_Thay_Huy</module>
         <module>BTVN_Thay_Trung</module>
     </modules>

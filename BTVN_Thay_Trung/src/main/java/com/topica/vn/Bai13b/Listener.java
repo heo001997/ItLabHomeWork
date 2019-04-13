@@ -18,7 +18,7 @@ public class Listener extends Thread {
                 Socket socket = serverSocket.accept();
                 Server.socketList.add(socket);
 
-                Server.socketList.forEach((n) -> System.out.println(n));
+//                Server.socketList.forEach((n) -> System.out.println(n));
             }
         } catch (IOException ioe){
             System.out.println("Interrupted In Listener");
