@@ -1,5 +1,7 @@
 package com.topica.vn.Bai14;
 
+import com.topica.vn.Bai14b.SqlConnectionPoolReplica;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -18,11 +20,11 @@ public class ReadProperties {
             } else {
                 throw new FileNotFoundException("property file '" + propertiesFileName + "' not found");
             }
-            SqlProcedure.driver = properties.getProperty("driver");
-            SqlProcedure.url = properties.getProperty("url");
-            SqlProcedure.database = properties.getProperty("database");
-            SqlProcedure.user = properties.getProperty("user");
-            SqlProcedure.password = properties.getProperty("password");
+            SqlConnectionPoolReplica.driver = properties.getProperty("driver");
+            SqlConnectionPoolReplica.url = properties.getProperty("url");
+            SqlConnectionPoolReplica.database = properties.getProperty("database");
+            SqlConnectionPoolReplica.user = properties.getProperty("user");
+            SqlConnectionPoolReplica.password = properties.getProperty("password");
         } catch (Exception e) {
             System.out.println("Exception: " + e);
         } finally {
