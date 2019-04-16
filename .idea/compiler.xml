@@ -6,10 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="btvn15" />
         <module name="BTVN_Thay_Huy" />
         <module name="BTVN_Thay_Trung" />
         <module name="BTVN_Thay_Tuan" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BTVN15" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="btvn15" options="-parameters" />
+    </option>
   </component>
 </project>
