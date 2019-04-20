@@ -7,11 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="btvn15" />
+        <module name="BTVN1_Thay_Huy" />
         <module name="BTVN_Thay_Huy" />
         <module name="BTVN_Thay_Trung" />
         <module name="BTVN_Thay_Tuan" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="btvn15" target="1.8" />
+      <module name="BTVN1_Thay_Huy" target="8" />
+      <module name="BTVN_Thay_Trung" target="8" />
+      <module name="BTVN_Thay_Tuan" target="8" />
+      <module name="ItLabHomeWork" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

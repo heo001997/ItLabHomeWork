@@ -1,0 +1,22 @@
+﻿#ForkJoinPool
+
+##What:
+- Là một framework được thêm vào từ Java 7?
+- ForkJoinPool là một kiểu trong 4 loại thread pool gồm: Cached thread pool, Fixed thread pool, Single-threaded pool, Fork/Join pool.
+- Là một Thread được thiết kế để thực hiện việc chia tách công việc fork/join
+
+##Where
+- Nằm trong package: java.util.concurrent
+- Tên đầy đủ khi import: java.util.concurrent.ForkJoinPool
+
+##Why/When
+- Khi ta muốn tối ưu tốc độ thực hiện công việc bằng cách chia nhỏ các thành phần hơn, sử dụng tất cả các khả năng xử lý để năng cao hiệu suất cho ứng dụng.
+
+##How
+- Nó giúp tăng tốc xử lý song song, bằng cách sử dụng tất cả các lõi của bộ xử lý có sẵn, chia nhỏ ra (fork) thành từng phần nhỏ để đưa vào các bộ máy phân tán/processor riêng tính toán. Sau khi có kết quả nhỏ, toàn bộ sẽ được gộp chung lại (join) để đưa ra kết quả cuối cùng.
+- Được so sánh gần giống như ExecutorService, ForkJoinPool chỉ khác ở chỗ có áp dụng thuật toán work-stealing.
+- Thuật toán work-stealing là một cơ chế giúp sắp xếp/đặt lịch (scheduler) tối ưu. Tư tưởng là:
+	- Mỗi processor sẽ có một queue/list công việc cần làm, khi có một processor làm hết việc, nó sẽ nhìn sang các processor khác và "ăn cắp" công việc từ processor đó.
+	- Việc "ăn cắp" công việc từ các processor khác giúp tối ưu tốc độ vì tất cả các processor đều làm việc, không có processor nào bị quá tải hoặc quá rảnh.
+	- Tác dụng của work-stealing là giúp cho 3 khía cạnh được tối ưu: execution time, memory usage và inter-processor communication.
+
