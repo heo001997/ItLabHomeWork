@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <title>Index</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./css/animation.js" ></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div layout:fragment="content" th:remove="tag">
+        <h1>Dictionary</h1>
+        <p>This is dictionary homepage.</p>
+        <p>Please login <a href="/admin" th:href="@{/admin}">admin</a> if you want to Add/Edit/Delete words.</p>
+
+        <div class="container">
+            <h2>Dictionary word list.</h2>
+            <form name="wordSearch" th:action="@{/}" method="post">
+                Word: <input type="text" name="word">
+                <input type="submit" name="login" value="Search">
+            </form>
+
+<!--            All dictionary to screen-->
+<!--            <table class="table table-bordered table-striped mb-0 w-auto">-->
+<!--                <thead>-->
+<!--                <tr>-->
+<!--                    <th class="th-sm">Id</th>-->
+<!--                    <th class="th-sm">Word</th>-->
+<!--                    <th class="th-sm">Meaning</th>-->
+<!--                    <th class="th-sm">Type</th>-->
+<!--                </tr>-->
+<!--                </thead>-->
+<!--                <tbody>-->
+<!--                    <th:block th:each="word : ${words}">-->
+<!--                        <tr>-->
+<!--                            <td><input th:value="${word.getId()}"/></td>-->
+<!--                            <td><input th:value="${word.getWord()}"/></td>-->
+<!--                            <td><input th:value="${word.getMean()}"/></td>-->
+<!--                            <td><input th:value="${word.getType()}"/></td>-->
+<!--                        </tr>-->
+<!--                    </th:block>-->
+<!--                </tbody>-->
+<!--            </table>-->
+        </div>
+    </div>
+</body>
+</html>

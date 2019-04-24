@@ -22,14 +22,14 @@ public class Run implements CommandLineRunner {
         System.out.println(dictionaryService.findAll());
         dictionaryService.addNewWord("Nguyễn Tiến Tú", "Boi đẹp chai check lỗi tiếng Việt", "Siêu đẹp trai thử insert tiếng Việt");
         try{
-            dictionaryService.editExistedWord("demo mean 1 fix", "demo mean 1 fixed times 2", "demo type 1 fixed times 2");
+            dictionaryService.editExistedWordById(1, "demo mean 1 fixed times 2", "demo type 1 fixed times 2");
         } catch (NullPointerException e){
             System.out.println("Cannot find element, please check your syntax");
         }
-        dictionaryService.deleteWord("demo word 1");
+        dictionaryService.deleteWordById(2);
 
         // put in database
-        homeController.importData("dict/vnedict.txt", "VE");
+        homeController.importData("F:\\spring-boot-spring-security-thymeleaf-form-login-example\\thymeleaf\\src\\main\\resources\\dict\\vnedict.txt", "VE");
     }
 
     public static void main(String[] args) {

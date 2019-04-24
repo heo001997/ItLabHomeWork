@@ -4,10 +4,11 @@ import com.memorynotfound.spring.security.web.model.entity.Dictionary;
 import com.memorynotfound.spring.security.web.model.implement.DictionaryServiceImpl;
 import com.memorynotfound.spring.security.web.model.repository.DictionaryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -28,6 +29,21 @@ public class HomeController {
     @GetMapping("/")
     public String root(Model model) {
         model.addAttribute("words", dictionaryService.findAll());
+        return "index";
+    }
+
+    @PostMapping("/search")
+    public String search(Model model, @ModelAttribute(name = "dictionary") Dictionary dictionary){
+        List<Dictionary> dictionaries = dictionaryService.findByWord(dictionary.getWord(), 0, 5);
+
+        Dictionary dictionaryResult = null;
+        for (Dictionary temp: dictionaries){
+            if (dictionary.getType().equals(temp.getType())){
+                dictionaryResult = temp;
+            }
+        }
+
+        model.addAttribute("dictionaryResult", dictionaryResult);
         return "index";
     }
 
@@ -55,7 +71,7 @@ public class HomeController {
     @GetMapping("/importdata")
     public void importData(String dbPath, String type){
         try {
-            FileReader reader = new FileReader("F:\\spring-boot-spring-security-thymeleaf-form-login-example\\thymeleaf\\src\\main\\resources\\dict\\vnedict.txt");
+            FileReader reader = new FileReader(dbPath);
             BufferedReader br = new BufferedReader(reader);
             String[] stringArray;
             String line;

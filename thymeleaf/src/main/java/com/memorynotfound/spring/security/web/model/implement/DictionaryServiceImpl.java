@@ -4,12 +4,15 @@ import com.memorynotfound.spring.security.web.model.entity.Dictionary;
 import com.memorynotfound.spring.security.web.model.repository.DictionaryRepository;
 import com.memorynotfound.spring.security.web.model.service.DictionaryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import java.awt.print.Pageable;
 import java.util.List;
 
-@Service
+@Component
 public class DictionaryServiceImpl implements DictionaryService {
 
     @Autowired
@@ -26,8 +29,8 @@ public class DictionaryServiceImpl implements DictionaryService {
     }
 
     @Override
-    public Dictionary editExistedWord(String tempWord, String mean, String type) {
-        Dictionary dictionary = dictionaryRepository.findByWord(tempWord);
+    public Dictionary editExistedWordById(int id, String mean, String type) {
+        Dictionary dictionary = dictionaryRepository.findById(id);
 
         if (dictionary == null){
             throw new NullPointerException();
@@ -39,7 +42,14 @@ public class DictionaryServiceImpl implements DictionaryService {
     }
 
     @Override
-    public void deleteWord(String word) {
-        dictionaryRepository.delete(dictionaryRepository.findByWord(word));
+    public void deleteWordById(int id) {
+        dictionaryRepository.delete(dictionaryRepository.findById(id));
     }
+
+    @Override
+    public List<Dictionary> findByWord(String word, int pageIndex, int pageSize) {
+        Page<Dictionary> dictionaries = dictionaryRepository.findByWord(word, new PageRequest(pageIndex, pageSize));
+        return dictionaries.getContent();
+    }
+
 }
