@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <div layout:fragment="content" th:remove="tag">
+        <h1>Dictionary</h1>
+        <p>This is dictionary homepage.</p>
+
+        <div class="container">
+            <h2>Basic Table</h2>
+            <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+            <table class="table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Word</th>
+                    <th>Mean</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+                <tbody>
+                <th:block th:each="word : ${words}">
+                    <tr>
+                        <td><input th:value="${word.getId()}" style="border: none; background: none; width: auto;" disabled/></td>
+                        <td><input th:value="${word.getWord()}" style="border: none; background: none; width: auto;" disabled/></td>
+                        <td><input th:value="${word.getMean()}" style="border: none; background: none; width: auto;" disabled/></td>
+                        <td><input th:value="${word.getType()}" style="border: none; background: none; width: auto" disabled/></td>
+                    </tr>
+                </th:block>
+                </tbody>
+            </table>
+        </div>
+
+        <ul>
+            <li>Please login <a href="/admin" th:href="@{/admin}">admin</a> if you want to Add/Edit/Delete words.</li>
+        </ul>
+    </div>
+</body>
+</html>
